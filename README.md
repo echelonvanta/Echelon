@@ -1,7 +1,5 @@
 # Echelon Tool
 
-![Echelon Banner](https://i.imgur.com/z1zF1QZ.png) <!-- (İsteğe bağlı olarak banner URL'sini kendi görselinle değiştir) -->
-
 **Echelon** is a multifunctional tool built for both **Termux** and **Kali Linux** environments. It offers a fast and user-friendly interface for automation, information gathering, and more—all from your terminal.
 
 ---
@@ -26,12 +24,69 @@
 
 ## Installation
 
-### Termux
+### For Termux
+
+1. First, update and upgrade your system:
+
+    ```bash
+    pkg update && pkg upgrade
+    ```
+
+2. Install the necessary packages:
+
+    ```bash
+    pkg install git -y
+    pkg install python -y
+    ```
+
+3. Clone the repository and navigate to the project folder:
+
+    ```bash
+    git clone https://github.com/echelonvanta/Echelon
+    cd Echelon
+    ```
+
+4. Run the installation script:
+
+    ```bash
+    bash install.sh
+    ```
+
+---
+
+### For Kali Linux
+
+1. Update and upgrade your system:
+
+    ```bash
+    sudo apt update && sudo apt upgrade
+    ```
+
+2. Install the necessary packages:
+
+    ```bash
+    sudo apt install git -y
+    sudo apt install python3 -y
+    ```
+
+3. Clone the repository and navigate to the project folder:
+
+    ```bash
+    git clone https://github.com/echelonvanta/Echelon
+    cd Echelon
+    ```
+
+4. Run the installation script:
+
+    ```bash
+    bash install.sh
+    ```
+
+---
+
+## Usage
+
+Once installed, you can launch the tool by running:
 
 ```bash
-pkg update && pkg upgrade
-pkg install git -y
-pkg install python -y
-git clone https://github.com/echelonvanta/Echelon
-cd Echelon
-bash install.sh
+bash echelon.sh
