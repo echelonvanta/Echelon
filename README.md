@@ -44,7 +44,7 @@
 3. Clone the repository and navigate to the project folder:
 
     ```bash
-    git clone https://github.com/echelonvanta/Echelon
+    git clone https://github.com/echelonvanta/
     cd Echelon
     ```
 
@@ -74,7 +74,7 @@
 3. Clone the repository and navigate to the project folder:
 
     ```bash
-    git clone https://github.com/echelonvanta/Echelon
+    git clone https://github.com/echelonvanta
     cd Echelon
     ```
 
