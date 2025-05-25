@@ -237,4 +237,40 @@ def main():
             show_network_interfaces()
         elif choice == '9':
             show_system_info()
-        elif choice == '
+        elif choice == '10':
+            list_files()
+        elif choice == '11':
+            current_directory()
+        elif choice == '12':
+            disk_usage()
+        elif choice == '13':
+            cpu_usage()
+        elif choice == '14':
+            memory_usage()
+        elif choice == '15':
+            netstat_info()
+        elif choice == '16':
+            arp_table()
+        elif choice == '17':
+            open_ports()
+        elif choice == '18':
+            reverse_dns()
+        elif choice == '19':
+            check_website_status()
+        elif choice == '20':
+            download_file()
+        elif choice == '21':
+            show_date_time()
+        elif choice == '22':
+            show_uptime()
+        elif choice == '23':
+            show_logged_users()
+        elif choice == '24':
+            show_env_variables()
+        elif choice == '25':
+            simple_http_server()
+        elif choice == '30':
+            exit_program()
+        else:
+            print("Geçersiz seçenek, lütfen tekrar deneyin.")
+        input("Devam etmek için Enter'a basın...")
