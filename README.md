@@ -46,10 +46,10 @@
     cd Echelon
     ```
 
-4. Run the installation script:
+4. Run the setup script:
 
     ```bash
-    bash setup.sh
+    python setup.py install
     ```
 
 ---
@@ -76,10 +76,10 @@
     cd Echelon
     ```
 
-4. Run the installation script:
+4. Run the setup script:
 
     ```bash
-    bash install.sh
+    python3 setup.py install
     ```
 
 ---
@@ -89,4 +89,4 @@
 Once installed, you can launch the tool by running:
 
 ```bash
-bash echelon.sh
+python3 echelon.py
