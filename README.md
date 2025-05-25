@@ -49,7 +49,7 @@
 4. Run the installation script:
 
     ```bash
-    bash install.sh
+    bash setup.sh
     ```
 
 ---
